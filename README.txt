@@ -1,4 +1,4 @@
-AMHS Robotics Scouting App 2016
+# AMHS Robotics Scouting App 2016
 
 This was a web application I built with my colleagues in our high school's FIRST robotics team, 
 Archibishop Mitty Robotics (team #1351).
