@@ -1,0 +1,320 @@
+/*Created by Adam Filiz, Rahul Rameshbabu, Shreyas Vaidya*/
+/*TODO: test on iPad*/
+
+#main-wrap > div { min-height: 450px; }
+
+@media screen and (orientation:portrait) {
+    #container {
+        -ms-transform: rotate(-90deg); /* IE 9 */
+        -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+        transform: rotate(-90deg);
+        width: 2048px ;
+        height: 1536px ;
+        overflow: scroll;
+    }
+
+}
+
+#body{
+    orient: "landscape";
+}
+
+#header{
+    min-height: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #26AEEE;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(105, 105, 105, 0.13);
+}
+
+#footer {
+    min-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-wrap {
+    overflow: hidden;
+}
+
+#left-content {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+    padding-top: 6px;
+}
+
+#right-content {
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#radio-test{
+    padding-top: 10px;
+}
+
+
+#match-number-form{
+    padding-bottom: 11px;
+}
+
+#robot-type{
+    width: 50%;
+}
+
+#left-title{
+    padding-left: 110px;
+    font-size: 25px;
+}
+
+#left-column{
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: rgba(105, 105, 105, 0.13);
+}
+
+#right-bottom-column-right{
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 50px;
+    padding-right: 100px;
+    width: 32.9%;
+}
+
+#comment-input{
+    height: 120px;
+    width: 385px;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+#teleop-description{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#robot-function{
+    font-size:16px;
+    font-weight: bold;
+}
+
+#end-game{
+    font-size:16px;
+    font-weight: bold;
+}
+
+#game-info{
+    font-size:16px;
+    font-weight: bold;
+}
+
+.left-content-hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #7eceda;
+    margin: 1em 0;
+    padding: 0;
+    width: 50%;
+    padding-bottom: 16px;
+}
+
+.button-images{
+    width: 110px;
+    height: 70px;
+}
+
+#cat-a-auton{
+    display: inline;
+}
+
+#right-bottom-column-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#right-bottom-column-right{
+    padding-left: 70px;
+}
+
+.right-titles{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-small-titles{
+    color: #959797;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#end-description{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#comment-title{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tech-foul{
+    width: 150px;
+}
+
+#outer-buttons{
+    width:100%;
+}
+
+.inside-buttons{
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.col-xs-3{
+    padding-bottom: 20px;
+}
+
+#submit-button{
+    margin-top: 92px;
+    margin-right: 0px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#major-fouls{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#number-fouls{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.left-titles{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.selectors{
+    padding-bottom: 10px;
+}
+
+#filler{
+    padding-bottom: 30px;
+}
+
+.image-button{
+    border-width: 5px;
+}
+
+.image-button-top{
+    margin-bottom: 5px;
+}
+
+.image-button-bottom{
+    margin-top: 5px;
+}
+
+#fouls-title{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#end-game-title{
+    color: #959797;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#reminder-title{
+    color: #959797;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    positiion: relative;
+    top: 50px;
+}
+
+#lowbar-top{
+    padding-left: 15px;
+    margin-bottom: -15px;
+}
+
+#lowbar-bottom{
+    padding-left: 15px;
+    margin-bottom: -20px;
+}
+
+
+#checkboxes-lowbar-auton{
+    position: absolute;
+    left: 130px;
+    bottom: 710px;
+}
+
+#checkboxes-lowbar-teleop{
+    position: absolute;
+    left: 130px;
+    bottom: 160px;
+}
+
+#defenses-selected{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#lowbar-attempt{
+    padding-right: 50px;
+}
+
+#lowbar-crosses{
+    padding-bottom: 10px;
+}
+
+#end-game-checkboxes{
+    margin-top: -20px;
+}
+
+.lowbar-checkboxes{
+    position: relative;
+    top: 15px;
+}
+
+#lowbar-bottom{
+    padding-bottom: 15px;
+}
+
+#hr{
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#FIRST-LAST{
+    color: #959797;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.green{
+    color: #39ba3e;
+}
+
+.red{
+    color: #cb2c1c;
+}
+
+/*@media screen and (min-height: 1023px) and (max-height: 1025px){
+    #checkboxes-lowbar-auton{
+        position: absolute;
+        left: 130px;
+        bottom: 750px;
+    }
+}*/

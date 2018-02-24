@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="vendor/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+    <link href="vendor/bootstrap-3.3.6-dist/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="vendor/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Scouting Admin Console</title>
+</head>
+<body>
+<div class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="admin.html">Scouting Admin Console</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" id="menu-bar">
+                <li><a href="admin.html">Home</a></li>
+                <li><a href="index.html">Scouting App</a></li>
+                <li><a onclick="document.getElementById('events-update').submit()">Event Data Initializer</a></li>
+                <li><a onclick="document.getElementById('schedule-update').submit()">Schedule Data Initializer</a></li>
+                <li class="active"><a href="/data?databaseName=SacramentoRegionalSchedule">Sacramento Regional</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<form id="events-update" action="/events" method="POST" hidden>
+    <input type="text" id="action" name="action" value="false"/>
+</form>
+<form id="schedule-update" action="/schedule" method="POST" hidden>
+    <input type="text" id="schedule-action" name="schedule-action" value="false"/>
+</form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style="text-align: center">Sacramento Regional Match Selection</h1>
+        </div>
+    </div>
+    <div class="row">
+        <form>
+            <input type="text" id="teams" name="teams" hidden/>
+            <button type="submit" class="btn btn-lg" style="width: 100%"><h3>Match Number 3<br>TIME STAMP</h3><p style="float: left; color: #ac2925">1351<br>234<br>321</p>
+
+                <p style="float: right; ; color: #2b669a">1351<br>234<br>321</p></button>
+        </form>
+        <br>
+        <form>
+            <button type="submit" class="btn btn-lg" style="width: 100%"><h3>Match Number 3<br>TIME STAMP</h3><p style="float: left; color: #ac2925">1351<br>234<br>321</p>
+
+                <p style="float: right; color: #2b669a">1351<br>234<br>321</p></button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
